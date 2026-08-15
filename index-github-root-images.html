@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Redphant Record — Official Releases</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#070707;color:#f5f5f5;font-family:Arial,Helvetica,sans-serif}
+.wrap{width:min(1180px,92%);margin:auto}header{min-height:88vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:50px 0}
+.logo{width:min(360px,78vw);height:auto;filter:drop-shadow(0 8px 24px rgba(255,70,20,.12))}
+.kicker{color:#ff5a2d;text-transform:uppercase;letter-spacing:.24em;font-size:.72rem;margin:22px 0 12px}
+h1{font-size:clamp(2.5rem,8vw,6rem);line-height:.92;margin:0;letter-spacing:-.055em}
+.hero{color:#999;max-width:680px;margin:22px auto;line-height:1.7}
+.nav{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:25px}.nav a{color:#fff;text-decoration:none;border:1px solid #383838;border-radius:999px;padding:10px 15px;font-size:.78rem}
+section{padding:70px 0}.head{display:flex;justify-content:space-between;align-items:end;margin-bottom:25px}.head h2{font-size:2.2rem;margin:0}.head p{color:#777}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.release{background:#111;border:1px solid #292929;border-radius:18px;overflow:hidden;box-shadow:0 15px 45px rgba(0,0,0,.22)}
+.cover{position:relative;aspect-ratio:1;background:#181818}.cover img{width:100%;height:100%;object-fit:cover;display:block}
+.status{position:absolute;top:13px;left:13px;background:#111;border:1px solid #555;padding:7px 10px;border-radius:999px;font-size:.63rem;text-transform:uppercase;letter-spacing:.1em}.status.up{background:#ef3d20;border-color:#ef3d20}
+.info{padding:18px}.info small{color:#ff6335;letter-spacing:.17em;font-weight:bold}.info h3{font-size:1.28rem;margin:8px 0 4px}.info p{margin:0;color:#ddd}.info time{display:block;color:#888;margin:12px 0;font-size:.82rem}
+.tag{display:inline-block;border:1px solid #444;border-radius:999px;padding:5px 8px;font-size:.67rem;margin-bottom:12px;color:#ccc}
+.player{margin-top:10px;border-radius:12px;overflow:hidden;background:#191919}.player iframe{display:block;width:100%;height:152px;border:0}
+.upcoming-player{padding:14px;color:#777;font-size:.76rem;line-height:1.4}
+.about{border-top:1px solid #292929;border-bottom:1px solid #292929}.about p{color:#aaa;line-height:1.8}.markets{display:flex;flex-wrap:wrap;gap:9px}.market{border:1px solid #363636;border-radius:999px;padding:9px 12px;color:#ddd;font-size:.8rem}
+footer{text-align:center;color:#777;padding:45px}.footlogo{width:100px}
+@media(max-width:600px){.head{display:block}.head p{margin-top:8px}.player iframe{height:152px}}
+
+.artist-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin-top:24px}
+.artist{background:#111;border:1px solid #292929;border-radius:14px;padding:18px}.artist strong{display:block}.artist span{display:block;color:#777;font-size:.75rem;margin-top:6px}
+.demo-copy{color:#aaa;max-width:720px;line-height:1.7}.demo-form{margin-top:28px;background:#111;border:1px solid #292929;border-radius:18px;padding:22px;max-width:900px}
+.demo-form label{display:block;color:#ddd;font-size:.82rem;margin-bottom:16px}.demo-form input:not([type="checkbox"]),.demo-form textarea{width:100%;margin-top:7px;background:#090909;color:#fff;border:1px solid #353535;border-radius:10px;padding:12px;font:inherit;outline:none}
+.demo-form input:focus,.demo-form textarea:focus{border-color:#ff6335}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.demo-form .check{display:flex;align-items:flex-start;gap:9px;color:#999;line-height:1.5}.demo-form button{border:0;background:#ff4d28;color:#fff;font-weight:800;text-transform:uppercase;letter-spacing:.12em;padding:13px 18px;border-radius:10px;cursor:pointer}
+.form-note{color:#666;font-size:.72rem;line-height:1.5;margin-bottom:0}.honeypot{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0}
+@media(max-width:600px){.form-grid{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header><div class="wrap">
+<img class="logo" src="images/redphant-logo-est-2025-transparent.png" alt="Redphant Record EST. 2025">
+<div class="kicker">Independent South African Record Label</div>
+<h1>THE RELEASE CATALOGUE</h1>
+<p class="hero">Discover the Redphant Record catalogue, stream released music directly from the label site, and follow the next wave of releases.</p>
+<nav class="nav"><a href="#catalogue">Catalogue</a><a href="#upcoming">Upcoming</a><a href="#artists">Artists</a><a href="#demo">Demo Drop</a><a href="#markets">DSP Markets</a></nav>
+</div></header>
+
+<section id="catalogue"><div class="wrap"><div class="head"><h2>Catalogue</h2><p>RPR 001–RPR 005</p></div><div class="grid"><article class="release">
+      <div class="cover"><img src="images/rpr-001-mazambane.jpg" alt="Mazambane artwork"><span class="status ">Released</span></div>
+      <div class="info"><small>RPR 001</small><h3>Mazambane</h3><p>Mizo 2.0, Sejuta RSA, UpsetDJY</p><time>23 December 2025</time><div class="player">
+          <iframe src="https://open.spotify.com/embed/album/6fjVkZXkWxEXmk6N6a3kC9?utm_source=generator" title="Spotify player — Mazambane" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div></div>
+    </article><article class="release">
+      <div class="cover"><img src="images/rpr-002-amabhoza.jpg" alt="Amabhoza artwork"><span class="status ">Released</span></div>
+      <div class="info"><small>RPR 002</small><h3>Amabhoza</h3><p>Mizo 2.0, Sejuta RSA, UpsetDJY</p><time>20 March 2026</time><div class="player">
+          <iframe src="https://open.spotify.com/embed/track/1OHcloJQow1bCtLpqL5HTB?utm_source=generator" title="Spotify player — Amabhoza" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div></div>
+    </article><article class="release">
+      <div class="cover"><img src="images/rpr-003-tlou-deep.jpg" alt="Tlou Deep EP artwork"><span class="status ">Released</span></div>
+      <div class="info"><small>RPR 003</small><h3>Tlou Deep EP</h3><p>UpsetDJY</p><time>24 April 2026</time><span class="tag">3-track EP</span><div class="player">
+          <iframe src="https://open.spotify.com/embed/album/5EUecXYdw5zcJQOAp2czof?utm_source=generator" title="Spotify player — Tlou Deep EP" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div></div>
+    </article><article class="release">
+      <div class="cover"><img src="images/rpr-005-vibes-from-the-motherland.jpg" alt="Vibes From the Motherland artwork"><span class="status ">Released</span></div>
+      <div class="info"><small>RPR 005</small><h3>Vibes From the Motherland</h3><p>UpsetDJY</p><time>1 May 2026</time><div class="player">
+          <iframe src="https://open.spotify.com/embed/track/4Rl6WpmlV1i0sxOGFpA16m?utm_source=generator" title="Spotify player — Vibes From the Motherland" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div></div>
+    </article><article class="release">
+      <div class="cover"><img src="images/rpr-004-session-with-chief.jpg" alt="It&#x27;s My Birthday Pt. 2 artwork"><span class="status ">Released</span></div>
+      <div class="info"><small>RPR 004</small><h3>It&#x27;s My Birthday Pt. 2</h3><p>Session With Chief</p><time>24 July 2026</time><div class="player">
+          <iframe src="https://open.spotify.com/embed/track/15zf2dfXGIS2ucPhiKsGYO?utm_source=generator" title="Spotify player — It&#x27;s My Birthday Pt. 2" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div></div>
+    </article></div></div></section>
+
+<section id="upcoming"><div class="wrap"><div class="head"><h2>Upcoming Releases</h2><p>2026 schedule</p></div><div class="grid"><article class="release">
+      <div class="cover"><img src="images/rpr-007-the-journey.png" alt="The Journey With UpsetDJY artwork"><span class="status up">Upcoming</span></div>
+      <div class="info"><small>RPR 007</small><h3>The Journey With UpsetDJY</h3><p>Skull Candy MusiQ, UpsetDJY</p><time>2 September 2026</time><div class="player upcoming-player">Audio player will appear here when the DSP link is added.</div></div>
+    </article><article class="release">
+      <div class="cover"><img src="images/rpr-006-meaningful-sounds.jpg" alt="Meaningful Sounds artwork"><span class="status up">Upcoming</span></div>
+      <div class="info"><small>RPR 006</small><h3>Meaningful Sounds</h3><p>DJY CPP</p><time>25 September 2026</time><div class="player upcoming-player">Audio player will appear here when the DSP link is added.</div></div>
+    </article></div></div></section>
+
+
+<section id="artists" class="about"><div class="wrap">
+<div class="kicker">Redphant Record Roster</div>
+<h2>Artists & collaborators.</h2>
+<p>Redphant Record is building a catalogue around independent artists and forward-thinking underground sounds.</p>
+<div class="artist-grid">
+<div class="artist"><strong>Mizo 2.0</strong><span>RPR 001 / RPR 002</span></div>
+<div class="artist"><strong>Sejuta RSA</strong><span>RPR 001 / RPR 002</span></div>
+<div class="artist"><strong>UpsetDJY</strong><span>RPR 001–RPR 007</span></div>
+<div class="artist"><strong>Session With Chief</strong><span>RPR 004</span></div>
+<div class="artist"><strong>DJY CPP</strong><span>RPR 006</span></div>
+<div class="artist"><strong>Skull Candy MusiQ</strong><span>RPR 007</span></div>
+</div></div></section>
+
+<section id="demo"><div class="wrap">
+<div class="kicker">Demo Drop</div><h2>Submit your music to Redphant Record.</h2>
+<p class="demo-copy">Send your demo for label consideration. Please provide a working streaming link and a short description of the release.</p>
+<form name="redphant-demo" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" class="demo-form">
+<input type="hidden" name="form-name" value="redphant-demo">
+<input type="hidden" name="subject" data-remove-prefix value="New Redphant Record demo submission">
+<p class="honeypot"><label>Don't fill this out: <input name="bot-field"></label></p>
+<div class="form-grid">
+<label>Artist / Project Name<input type="text" name="artist" required placeholder="Artist or project name"></label>
+<label>Contact Email<input type="email" name="email" required placeholder="artist@example.com"></label>
+</div>
+<div class="form-grid">
+<label>Release Title<input type="text" name="release-title" required placeholder="Track / EP / Album title"></label>
+<label>Genre<input type="text" name="genre" required placeholder="Genre / subgenre"></label>
+</div>
+<label>Streaming / Private Link<input type="url" name="demo-link" required placeholder="https://..."></label>
+<label>Message / Release Information<textarea name="message" rows="6" required placeholder="Tell the label about the release, collaborators, release plans, etc."></textarea></label>
+<label class="check"><input type="checkbox" name="permission" value="I confirm I have permission to submit this music." required> I confirm I have permission to submit this music for consideration.</label>
+<button type="submit">Submit Demo</button>
+<p class="form-note">Submissions are handled by Netlify Forms. Please do not submit passwords, payment details, or other confidential information.</p>
+</form></div></section>
+
+<section id="markets" class="about"><div class="wrap"><div class="kicker">Redphant Record</div><h2>Music across the DSP ecosystem.</h2>
+<p>Released tracks include an embedded Spotify player so visitors can stream without leaving the label website. Upcoming releases are ready for their player links to be added when the DSP pages go live.</p>
+<div class="markets"><span class="market">Spotify</span><span class="market">Apple Music</span><span class="market">YouTube Music</span><span class="market">Amazon Music</span><span class="market">Deezer</span><span class="market">TIDAL</span><span class="market">Audiomack</span><span class="market">Boomplay</span></div></div></section>
+
+<footer><img class="footlogo" src="images/redphant-logo-est-2025-transparent.png" alt="Redphant Record"><br>© 2025–2026 Redphant Record. All rights reserved.</footer>
+
+<script>
+const demoForm=document.querySelector('form[name="redphant-demo"]');
+if(demoForm){demoForm.addEventListener('submit',async(e)=>{e.preventDefault();const b=demoForm.querySelector('button');b.disabled=true;b.textContent='Sending...';try{const r=await fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(demoForm)).toString()});if(!r.ok)throw Error();demoForm.innerHTML='<div style="text-align:center;padding:28px"><div class="kicker">Demo received</div><h3 style="font-size:1.6rem;margin:0 0 10px">Thank you for submitting to Redphant Record.</h3><p style="color:#999">Your demo has been sent to the label for consideration.</p></div>'}catch(err){b.disabled=false;b.textContent='Submit Demo';alert('We could not send the demo. Please try again.')}})}
+</script>
+</body></html>
